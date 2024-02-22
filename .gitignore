@@ -1,45 +1,94 @@
-#--------------------------#
-# Magento Default Files    #
-#--------------------------#
+__pycache__/
+*.py[cod]
+*$py.class
 
-/PATCH_*.sh
+*.so
 
-/app/etc/local.xml
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-/media/*
-!/media/.htaccess
+*.manifest
+*.spec
 
-!/media/customer
-/media/customer/*
-!/media/customer/.htaccess
+pip-log.txt
+pip-delete-this-directory.txt
 
-!/media/dhl
-/media/dhl/*
-!/media/dhl/logo.jpg
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 
-!/media/downloadable
-/media/downloadable/*
-!/media/downloadable/.htaccess
+*.mo
+*.pot
 
-!/media/xmlconnect
-/media/xmlconnect/*
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/custom/ok.gif
+instance/
+.webassets-cache
 
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/original/ok.gif
+.scrapy
 
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-!/media/xmlconnect/system/ok.gif
+docs/_build/
 
-/var/*
-!/var/.htaccess
+target/
 
-!/var/package
-/var/package/*
-!/var/package/*.xml
+.ipynb_checkpoints
+
+profile_default/
+ipython_config.py
+
+.python-version
+
+Pipfile.lock
+Pipfile~
+
+celerybeat-schedule
+
+.env
+
+venv/
+ENV/
+
+.spyderproject
+.spyproject
+
+.ropeproject
+
+/site
+
+.mypy_cache/
+
+.pyre/
+
+profile_*.dat
+
+.pycache/
+
+.pyrightconfig.json
+
+.vscode/
+
 
