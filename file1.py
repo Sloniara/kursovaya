@@ -14,7 +14,7 @@ def mask_card_number(card_number):
         if len(card_only_number) == 16:
             mask_number = f'{card_only_number[:-12]} {card_only_number[4:-10]}** **** {card_only_number[12:16]}'
         else:
-            mask_number = f"{card_only_number[:-16]} {card_only_number[4:-12]} {card_only_number[8:-10]}** **** {card_only_number[16:20]}"
+            mask_number = f"**** **** **** **** {card_only_number[16:20]}"
         return f'{card_only_name} {mask_number}'
     else:
         return ''
